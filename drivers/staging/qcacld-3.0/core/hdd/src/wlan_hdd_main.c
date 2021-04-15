@@ -15858,7 +15858,7 @@ static void hdd_inform_wifi_off(void)
 	osif_psoc_sync_op_stop(psoc_sync);
 }
 
-static int hdd_driver_load(void);
+int hdd_driver_load(void);
 
 void hdd_init_start_completion(void)
 {
