@@ -1,0 +1,1 @@
+cmd_scripts/kconfig/conf := /media/builder6/build2/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang   -o scripts/kconfig/conf scripts/kconfig/conf.o scripts/kconfig/confdata.o scripts/kconfig/expr.o scripts/kconfig/lexer.lex.o scripts/kconfig/parser.tab.o scripts/kconfig/preprocess.o scripts/kconfig/symbol.o   
