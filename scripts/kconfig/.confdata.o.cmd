@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/confdata.o := /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.confdata.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89       -c -o scripts/kconfig/confdata.o scripts/kconfig/confdata.c
+cmd_scripts/kconfig/confdata.o := /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.confdata.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89       -c -o scripts/kconfig/confdata.o scripts/kconfig/confdata.c
 
 source_scripts/kconfig/confdata.o := scripts/kconfig/confdata.c
 
@@ -13,7 +13,7 @@ deps_scripts/kconfig/confdata.o := \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/mman.h \
   /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -34,13 +34,13 @@ deps_scripts/kconfig/confdata.o := \
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/limits.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/limits.h \
   /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
   /usr/include/stdio.h \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
@@ -74,7 +74,7 @@ deps_scripts/kconfig/confdata.o := \
   scripts/kconfig/expr.h \
   /usr/include/assert.h \
   scripts/kconfig/list.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
   scripts/kconfig/lkc_proto.h \
 
 scripts/kconfig/confdata.o: $(deps_scripts/kconfig/confdata.o)

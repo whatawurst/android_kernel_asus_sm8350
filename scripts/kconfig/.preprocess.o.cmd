@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/preprocess.o := /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.preprocess.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89       -c -o scripts/kconfig/preprocess.o scripts/kconfig/preprocess.c
+cmd_scripts/kconfig/preprocess.o := /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.preprocess.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89       -c -o scripts/kconfig/preprocess.o scripts/kconfig/preprocess.c
 
 source_scripts/kconfig/preprocess.o := scripts/kconfig/preprocess.c
 
@@ -17,10 +17,10 @@ deps_scripts/kconfig/preprocess.o := \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
   /usr/include/xlocale.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
   /usr/include/stdio.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \

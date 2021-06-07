@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/lexer.lex.o := /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.lexer.lex.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89      -I ./scripts/kconfig -c -o scripts/kconfig/lexer.lex.o scripts/kconfig/lexer.lex.c
+cmd_scripts/kconfig/lexer.lex.o := /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.lexer.lex.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89      -I ./scripts/kconfig -c -o scripts/kconfig/lexer.lex.o scripts/kconfig/lexer.lex.c
 
 source_scripts/kconfig/lexer.lex.o := scripts/kconfig/lexer.lex.c
 
@@ -10,13 +10,13 @@ deps_scripts/kconfig/lexer.lex.o := \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -49,7 +49,7 @@ deps_scripts/kconfig/lexer.lex.o := \
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/assert.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/limits.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/limits.h \
   /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -64,7 +64,7 @@ deps_scripts/kconfig/lexer.lex.o := \
     $(wildcard include/config/prefix.h) \
   scripts/kconfig/expr.h \
   scripts/kconfig/list.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
   scripts/kconfig/lkc_proto.h \
   scripts/kconfig/parser.tab.h \
 

@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/parser.tab.o := /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.parser.tab.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89      -I ./scripts/kconfig -c -o scripts/kconfig/parser.tab.o scripts/kconfig/parser.tab.c
+cmd_scripts/kconfig/parser.tab.o := /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.parser.tab.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89      -I ./scripts/kconfig -c -o scripts/kconfig/parser.tab.o scripts/kconfig/parser.tab.c
 
 source_scripts/kconfig/parser.tab.o := scripts/kconfig/parser.tab.c
 
@@ -17,9 +17,9 @@ deps_scripts/kconfig/parser.tab.o := \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
   /usr/include/xlocale.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
   /usr/include/stdio.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
@@ -43,7 +43,7 @@ deps_scripts/kconfig/parser.tab.o := \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/string.h \
   /usr/include/x86_64-linux-gnu/bits/string2.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
   scripts/kconfig/lkc.h \
     $(wildcard include/config/prefix.h) \
   scripts/kconfig/expr.h \

@@ -1,4 +1,4 @@
-cmd_scripts/basic/fixdep := /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/basic/.fixdep.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89         -o scripts/basic/fixdep scripts/basic/fixdep.c   
+cmd_scripts/basic/fixdep := /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/basic/.fixdep.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89         -o scripts/basic/fixdep scripts/basic/fixdep.c   
 
 source_scripts/basic/fixdep := scripts/basic/fixdep.c
 
@@ -16,7 +16,7 @@ deps_scripts/basic/fixdep := \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/time.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
   /usr/include/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
@@ -42,7 +42,7 @@ deps_scripts/basic/fixdep := \
   /usr/include/x86_64-linux-gnu/bits/string.h \
   /usr/include/x86_64-linux-gnu/bits/string2.h \
   /usr/include/stdlib.h \
-  /media/builder2021/DataSSD/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
+  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
