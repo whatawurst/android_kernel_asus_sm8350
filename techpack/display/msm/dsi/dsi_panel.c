@@ -637,6 +637,7 @@ static int dsi_panel_update_backlight(struct dsi_panel *panel,
 	DSI_LOG("set bl=%d\n", bl_lvl);
 	dsi_anakin_record_backlight(bl_lvl);
 	dsi_zf8_record_backlight(bl_lvl);
+	dsi_zf8_set_dimming_smooth(panel, bl_lvl);
 
 	// always 0 except project Anakin & Picasso
 	if (panel->allow_panel_fod_hbm == 1)
