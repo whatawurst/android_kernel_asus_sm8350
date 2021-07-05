@@ -1,3 +1,10 @@
+ifeq ($(CONFIG_MACH_ASUS_SAKE),y)
+ASUS_BUILD_PROJECT = SAKE
+endif
+
+ifeq ($(CONFIG_MACH_ASUS_VODKA),y)
+ASUS_BUILD_PROJECT = VODKA
+endif
 
 # +++ ASUS_BSP : add for asus dtbo
 $(warning [Build] build dtbo CONFIG_BUILD_ARM64_DT_OVERLAY = $(CONFIG_BUILD_ARM64_DT_OVERLAY))
